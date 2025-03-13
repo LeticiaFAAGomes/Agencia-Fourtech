@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="lib/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imagens/logo_icon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <title>Fourtech</title>
+  </head>
+
+  <body>
+    <!-- INICIO DA SEÇÃO CABECALHO -->
+    <header>
+      <nav class="menu_principal">
+        <div class="logo">
+          <a href="index.html"><img src="imagens/logo.png" alt="logo da Fourtech" title="Logo FourTech" /></a>
+        </div>
+        <!--logo-->
+        <div id="menu" class="opcoes_menu ">
+          <ul id="lista" class="lista inicio">
+            <li onclick="goTo('home', true)">Home</li>
+            <li onclick="goTo('sobre', true)">Sobre</li>
+            <li onclick="goTo('o_oqf', true)">O que fazemos?</li>
+            <li onclick="goTo('portfolio', true)">Portfólio</li>
+            <li onclick="goTo('contato', true)">Contato</li>
+          </ul>
+          <!--ul-->
+          <div class="icones_geral">
+            <a target="_blank" href="https://www.instagram.com" title="Icone instagram"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://pt-br.facebook.com/" title="Icone Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://github.com/" title="Ícone Github"><i class="fab fa-github"></i></a>
+          </div>
+          <!--icones_geral-->
+          <div class="mobile_menu" onclick="menuMobile()">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+          </div>
+          <!--mobile_menu-->
+        </div>
+        <!--opcoes_menu-->
+      </nav>
+      <!--menu_principal-->
+    </header>
+    <!-- FIM DA SEÇÃO CABECALHO -->
+
+    <!-- INICIO DA SEÇÃO HOME -->
+    <section class="home_principal" id="home">
+      <div class="corpo_home">
+        <div class="texto_home">
+          <h1>Tenha seu site feito com a agência que você pode confiar.</h1>
+        </div>
+        <!--texto_home-->
+        <div class="img_home">
+          <img src="imagens/img_home.png" alt="ilustração de dispositivos" title="ilustração de dispositivos" />
+        </div>
+        <!--img_home-->
+      </div>
+      <!--corpo_home-->
+    </section>
+    <!-- FIM DA SEÇÃO HOME -->
+
+    <!-- INICIO DA SEÇÃO SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="titulo_sobre">
+        <h2>SOBRE</h2>
+      </div>
+      <!--titulo_sobre-->
+      <div class="sobre_container">
+        <div class="corpo_sobre">
+          <div class="img_sobre"><img src="imagens/img_sobre.png" alt="ilustração de personagem usando seis monitores" title="ilustração de personagem usando seis monitores" /></div>
+          <div class="texto_sobre">
+            <p>
+              FourTech é uma agência de desenvolvimento web fundada em 2021. Atualmente desenvolve projetos bem planejados e codificados. Nossa empresa está sempre se atualizando e procurando novas tecnologias que possam ajudar os usuários. Nossos
+              funcionários são bem qualificados e entregam o serviço proposto sempre priorizando a qualidade final do produto.
+            </p>
+          </div>
+          <!--texto_sobre-->
+        </div>
+        <!--corpo_sobre-->
+      </div>
+      <!--sobre_container-->
+    </section>
+    <!-- FIM DA SEÇÃO SOBRE -->
+
+    <!-- INICIO DA SEÇÃO 'O QUE FAZEMOS' (oqf = o que fazemos)-->
+    <section class="o_oqf" id="o_oqf">
+      <div class="corpo_oqf">
+        <div class="titulo_oqf">
+          <h2>O que fazemos?</h2>
+        </div>
+        <!--titulo_oqf-->
+        <div class="parte_01">
+          <div class="img_oqf_01">
+            <img src="imagens/img_oquefazemos1.png" alt="ilustração de uma personagem sentada em um notebook" title="ilustração de uma personagem sentada em um notebook" />
+          </div>
+          <!--img_oqf_01-->
+          <div class="texto_oqf_01">
+            <h3>FourTech tem como objetivos:</h3>
+            <ul>
+              <li>Desenvolver seu sistema com a melhor performance;</li>
+              <li>Sempre utilizar as melhores tecnologias e frameworks;</li>
+              <li>Tornar seu site totalmente responsivo;</li>
+              <li>Garantir segurança ao seu site.</li>
+            </ul>
+            <!--ul-->
+          </div>
+          <!--texto_oqf_01-->
+        </div>
+        <!--parte_01-->
+        <div class="parte_02">
+          <div class="img_oqf_02">
+            <img src="imagens/img_oquefazemos2.png" alt="ilustração de uma personagem mexendo em um celular" title="ilustração de uma personagem mexendo em um celular" />
+          </div>
+          <!--img_oqf_02-->
+          <div class="texto_oqf_02">
+            <h3>Mais do que fazemos:</h3>
+            <ul>
+              <li>Prestar serviços como de criação e atualização de websites;</li>
+              <li>Criação de microsites;</li>
+              <li>Gerenciamento de projetos;</li>
+              <li>Banner advertising.</li>
+            </ul>
+            <!--ul-->
+          </div>
+          <!--texto_oqf_02-->
+        </div>
+        <!--parte_02-->
+      </div>
+      <!--corpo_oqf-->
+    </section>
+    <!-- FIM DA SEÇÃO O QUE FAZEMOS -->
+
+    <!-- INCIO DA SEÇÃO PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="corpo_portfolio">
+        <div class="titulo_portfolio">
+          <h2>Portfólio</h2>
+        </div>
+        <!--titulo_portfolio-->
+        <div class="texto_portfolio">
+          <p>Projetos já realizados por nós:</p>
+        </div>
+        <!--texto_portfolio-->
+        <div class="projetos">
+          <div class="projetos_portfolio">
+            <div class="row">
+              <div class="img-btn">
+                <a href="#"><img src="imagens/portifolio.jpg" alt="" /><span class="btn">VER PROJETO</span></a>
+              </div>
+              <!--img_btn-->
+              <div class="img-btn">
+                <a href="#"><img src="imagens/portifolio.jpg" alt="" /><span class="btn">VER PROJETO</span></a>
+              </div>
+              <!--img_btn-->
+            </div>
+            <!--row-->
+            <div class="row">
+              <div class="img-btn">
+                <a href="#"><img src="imagens/portifolio.jpg" alt="" /><span class="btn">VER PROJETO</span></a>
+              </div>
+              <!--img_btn-->
+              <div class="img-btn">
+                <a href="#"><img src="imagens/portifolio.jpg" alt="" /><span class="btn">VER PROJETO</span></a>
+              </div>
+              <!--img_btn-->
+            </div>
+            <!--row-->
+          </div>
+          <!--projetos_portfolio-->
+        </div>
+        <!--projetos-->
+      </div>
+      <!--corpo_portfolio-->
+    </section>
+    <!-- FIM DA SEÇÃO PORTFOLIO -->
+
+    <!-- INICIO DA SEÇÃO CONTATO -->
+    <section class="contato" id="contato">
+      <div class="corpo_contato">
+        <div class="titulo_contato">
+          <h2>Contato</h2>
+        </div>
+        <!--titulo_contato-->
+        <div class="contato_wrapper">
+          <form action="post">
+            <input type="text" name="nome" placeholder="Nome" />
+            <input type="email" name="email" placeholder="E-mail" />
+            <textarea placeholder="Como podemos te ajudar?" name="mensagem" cols="25" rows="6"></textarea>
+            <button class="btn-tabela" type="submit">Enviar</button>
+          </form>
+          <!--form-->
+          <div class="mapa">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?width=520&height=400&hl=en&q=Av.%20Tancredo%20Neves,%20000%20Salvador+(Fourtech)&t=&z=16&ie=UTF8&iwloc=B&output=embed"> </iframe>
+            <script src="https://embedmaps.com/google-maps-authorization/script.js?id=AIzaSyD1X7X7U0rI9R0mPAEhrd9NdvJncqDlX_o"></script>
+          </div>
+          <!--mapa-->
+        </div>
+        <!--contato_wrapper-->
+      </div>
+      <!--corpo_contato-->
+    </section>
+    <!-- FIM DA SEÇÃO CONTATO -->
+
+    <!-- INICIO DA SEÇÃO FOOTER -->
+    <footer class="footer">
+      <div class="container_footer">
+        <div class="item-left">
+          <h4>Nosso endereço:</h4>
+          <h5>Venha nos visitar!</h5>
+          <p>Rua João e Maria 123/456</p>
+          <p>Av. Tancredo Neves, 000, Salvador-BA</p>
+        </div>
+        <!--item-left-->
+        <div class="img_footer">
+          <a href="index.html"><img src="imagens/logo.png" alt="logo da Fourtech" title="Logo Fourtech" /></a>
+        </div>
+        <!--img_footer-->
+        <div class="item-right">
+          <h4>Entre em contato conosco:</h4>
+          <p>(74) 1234-56789</p>
+          <p>(74) 1234-56789</p>
+          <p>(74) 1234-56789</p>
+        </div>
+        <!--item-right-->
+      </div>
+      <!--container_footer-->
+
+      <div class="copyright">
+        <span>&copy; 2021 Fourtech. Todos os direitos reservados.</span>
+      </div>
+      <!--copyright-->
+    </footer>
+    <!-- FIM DA SEÇÃO FOOTER -->
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <div onclick="goTo('home')" class="scrollButton">
+      <i class="fas fa-angle-double-up"></i>
+    </div>
+    <!--scrollButton-->
+    <!-- FIM BOTÃO VOLTAR AO TOPO -->
+
+    <!-- SCRIPT -->
+    <script src="js/script.js"></script>
+    <!-- FIM DOS SCRIPTS -->
+  </body>
+</html>
