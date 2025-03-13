@@ -14,6 +14,7 @@ function monitorarScroll() {
 /**
  * Esta função recebe um elemento e a partir do id deste elemento navega até ele.
  * @param {string} elemento - Refere-se ao nome do id elemento a ser navegado.
+ * @param {boolean} msg - A variável recebe 'true' caso o elemento for da barra de navegação.
  */
 function goTo(elemento, msg = false) {
   window.scrollTo({ top: document.getElementById(elemento).offsetTop - 100, behavior: "smooth" });
@@ -31,6 +32,9 @@ function menuMobile() {
   lista.classList.remove("inicio");
 }
 
+/**
+ * Esta função cria uma animação de máquina de escrever na tag h1.
+ */
 function typeWriter() {
   const elemento = document.querySelector("h1");
   const textoArray = elemento.innerHTML.split("");
