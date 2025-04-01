@@ -496,16 +496,14 @@ p {
   h2 {
     font-size: 1.5rem;
   }
-  .sobre {
-    width: 100vw;
-  }
 
   .sobre_container {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
   .sobre .corpo_sobre {
-    width: 100% !important;
+    height: 100% !important;
   }
 
   .sobre .corpo_sobre img {
